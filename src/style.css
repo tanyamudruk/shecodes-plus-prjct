@@ -1,0 +1,46 @@
+.card {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(253, 246, 234);
+}
+.card-text {
+  color: orange;
+  font-weight: bold;
+  font-size: large;
+}
+.affiliation {
+  text-align: center;
+  opacity: 0.8;
+  font-size: small;
+}
+.current_temperature {
+  text-align: center;
+}
+.current_temperature_icon {
+  text-align: center;
+}
+.day {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.icon {
+  font-size: 30px;
+}
+.temp_links {
+  text-decoration: none;
+  color: gray;
+}
+
+.celcius:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.farenh:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+#temp_label {
+  display: inline;
+}
